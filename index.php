@@ -76,8 +76,7 @@
         End Preloader
         ==================================== -->
 		
-        <!--
-        Welcome Slider
+        <!--Welcome Slider
         ==================================== -->
 		<section id="home">	    
 		
@@ -104,7 +103,7 @@
 							<div class="bg-img bg-img-2"></div>
 						<div class="carousel-caption">
 							<div>
-								<h2 class="heading animated fadeInDown">Solar Energy</h2>
+								<h2 class="heading animated fadeInDown">Energy Conservation</h2>
 							<!--	<h3 class="animated fadeInUp">With all Mejor Browser support including IE 9</h3> -->
 								<a class="btn btn-green animated fadeInUp" href="blog.php">Get Started</a>
 							</div>
@@ -290,7 +289,7 @@
 							
 								<!-- features media -->
 						<!--		<div class="col-md-6 feature-media wow fadeInUp" data-wow-duration="500ms">
-									<img src="img/blog/3D-beach-art.jpg" alt="3D Beach Art | Conservo" class="img-responsive">
+									<img src="img/blog/3D-beach-art.jpg" alt="Conservo" class="img-responsive">
 								</div>
 								<!-- /features media -->
 								
@@ -757,7 +756,7 @@
 					<!-- /section title -->
 					
 					<!-- team member -->
-					<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms">
+					<div class="col-md-3 col-md-offset-2 col-sm-6 wow fadeInDown" data-wow-duration="500ms">
                        <article class="team-mate">
 							<div class="member-photo">
 								<!-- member photo -->
@@ -882,7 +881,7 @@
 										<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 									</ul>
 								</div>
-								<!-- /member social profile -->
+							<!--member social profile -->
 		<!--					</div>
 							
 							<!-- member name & designation -->
@@ -915,7 +914,7 @@
 					<div class="col-lg-12 text-center">
 					
 						<!-- twitter bird -->
-						<div class="twitter-bird wow fadeInDown" data-wow-duration="500ms">
+						<div class="twitter-bird wow fadeInDown" data-wow-duration="500ms" style="margin-top:20px">
 							<span>
 								<i class="fa fa-twitter fa-4x"></i>
 							</span>
@@ -927,7 +926,7 @@
 						<!-- /fetching tweet -->
 						
 						<!-- follow us button -->
-						<a href="https://twitter.com/hashtag/energyconservation?src=hash" title="Follow Us" target="_blank" class="btn btn-transparent wow fadeInUp" data-wow-duration="500ms">Follow Us</a>						
+						<a href="https://twitter.com/hashtag/energyconservation?src=hash" title="Follow Us" target="_blank" class="btn btn-transparent wow fadeInUp" data-wow-duration="500ms" style="margin-top:-20px">Follow Us</a>						
 						<!-- /follow us button -->
 						
 					</div>
@@ -1085,7 +1084,7 @@
 					
 						<!-- section title -->
 						<div class="sub-title text-center wow fadeInDown" data-wow-duration="500ms">
-							<h3>What People Say About Us</h3>
+							<h3>What We Do</h3>
 						</div>
 						<!-- /section title -->
 
@@ -1097,18 +1096,18 @@
 								
 								<!-- client photo -->
 								<div class="client-thumb">
-									<img src="img/team/client.jpg" class="img-responsive" alt="Conservo">
+									<img src="img/blog/t3.jpg" class="img-responsive" alt="Conservo">
 								</div>
 								<!-- /client photo -->
 								
 								<!-- client info -->
 								<div class="client-info">
 									<div class="client-meta">
-										<h3>Abul Mal Muhit</h3>
-										<span>Dec 26, 2014</span>
+										<h3>Zeus</h3>
+										<span>HACKATHON 2015</span>
 									</div>
 									<div class="client-comment">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex, cupiditate, error, suscipit saepe sed ea consequuntur inventore sequi sit illo.</p>
+										<p>We aim to create awareness among the society so that they could use the resources in the most efficient way and work towards the betterment of the society..</p>
 										<ul class="social-profile">
 											<li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
 											<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
@@ -1121,16 +1120,16 @@
 							<!-- /testimonial single -->
 						
 							<!-- testimonial single -->
-							<div class="item text-center">
+						<!--	<div class="item text-center">
 								
 								<!-- client photo -->
-								<div class="client-thumb">
+						<!--		<div class="client-thumb">
 									<img src="img/team/client.jpg" class="img-responsive" alt="Conservo">
 								</div>
 								<!-- /client photo -->
 								
 								<!-- client info -->
-								<div class="client-info">
+						<!--		<div class="client-info">
 									<div class="client-meta">
 										<h3>Abul Mal Muhit</h3>
 										<span>Dec 26, 2014</span>
@@ -1145,20 +1144,20 @@
 									</div>
 								</div>
 								<!-- /client info -->
-							</div>
+						<!--	</div>
 							<!-- /testimonial single -->
 						
 							<!-- testimonial single -->
-							<div class="item text-center">
+						<!--	<div class="item text-center">
 								
 								<!-- client photo -->
-								<div class="client-thumb">
+						<!--		<div class="client-thumb">
 									<img src="img/team/client.jpg" class="img-responsive" alt="Conservo">
 								</div>
 								<!-- /client photo -->
 								
 								<!-- client info -->
-								<div class="client-info">
+						<!--		<div class="client-info">
 									<div class="client-meta">
 										<h3>Abul Mal Muhit</h3>
 										<span>Dec 26, 2014</span>
@@ -1173,7 +1172,7 @@
 									</div>
 								</div>
 								<!-- /client info -->
-							</div>
+						<!--	</div>
 							<!-- /testimonial single -->
 							
 						</div>		<!-- end testimonial wrapper -->
@@ -1204,12 +1203,12 @@
 						<article class="col-md-3 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
 							<div class="note">
 								<div class="media-wrapper">
-									<img src="img/blog/amazing-caves-coverimage.jpg" alt="amazing caves coverimage" class="img-responsive">
+									<img src="img/blog/t1.jpg" alt="amazing caves coverimage" class="img-responsive">
 								</div>
 								
 								<div class="excerpt">
-									<h3>Simple Image Post</h3>
-									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
+									<h3>Energy Conservation Technique #1</h3>
+									<p>Drive Less, Walk More and Carpooling: Yet another energy conservation technique is to drive less and walk more. This will not only reduce your carbon footprint but will also keep you healthy as walking is a good exercise. If you go to office by car and many of your colleagues stay nearby, try doing carpooling with them.<p>
 									<a class="btn btn-transparent" href="single-post.php">Read more</a>
 								</div>
 							</div>						
@@ -1217,23 +1216,18 @@
 						<!-- /single blog post -->
 						
 						<!-- single blog post -->
-						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+						<article class="col-md-3 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms" >
 							<div class="note">
-								<div id="gallery-post" class="media-wrapper">
-									<div class="item">
-										<img src="img/blog/amazing-caves-coverimage.jpg" alt="amazing caves coverimage" class="img-responsive">
-									</div>
-									<div class="item">
-										<img src="img/blog/bicycle.jpg" alt="Flying bicycle" class="img-responsive">
-									</div>
-									<div class="item">
-										<img src="img/blog/3D-beach-art.jpg" alt="3D Beach Art | Conservo" class="img-responsive">
-									</div>
+								<div class="media-wrapper">
+									
+										<img src="img/blog/t2.jpg" alt="amazing caves coverimage" class="img-responsive">
+									
+									
 								</div>
 								
 								<div class="excerpt">
-									<h3>Simple Slider Post</h3>
-									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
+									<h3>Energy Conservation Technique #2</h3>
+									<p>Electrical appliances like coffee machine, idle printer, desktop computer keep on using electricity even when not in use. Just switch them off if you don’t need them immediately.</p>
 									<a class="btn btn-transparent" href="single-post.php">Read more</a>
 								</div>
 							</div>						
@@ -1241,35 +1235,36 @@
 						<!-- end single blog post -->
 						
 						<!-- single blog post -->
-						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+						<article class="col-md-3 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
 							<div class="note">
 								<div class="media-wrapper">
-									<img src="img/blog/amazing-caves-coverimage.jpg" alt="amazing caves coverimage" class="img-responsive">
+									<img src="img/blog/t3.jpg" alt="amazing caves coverimage" class="img-responsive">
 								</div>
 								
 								<div class="excerpt">
-									<h3>Simple Image Post</h3>
-									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
+									<h3>Energy Conservation Technique #3</h3>
+									<p>There are more processes that are starting to use alternative power and fuel sources in many different areas of life. The use of alternative power is one of the most key energy conservation techniques because almost all of the transition models require that the existing processes replaced to more energy efficient models.<p>
 									<a class="btn btn-transparent" href="single-post.php">Read more</a>
 								</div>
 							</div>						
 						</article>
-						<!-- end single blog post -->
+						<!-- /single blog post -->
 						
 						<!-- single blog post -->
-						<article class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="note kill-margin-bottom">
+						<article class="col-md-3 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+							<div class="note">
 								<div class="media-wrapper">
-									<img src="img/blog/amazing-caves-coverimage.jpg" alt="amazing caves coverimage" class="img-responsive">
+									<img src="img/blog/t4.png" alt="amazing caves coverimage" class="img-responsive">
 								</div>
+								
 								<div class="excerpt">
-									<h3>Simple Image Post</h3>
-									<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
+									<h3>Energy Conservation Technique #4</h3>
+									<p>When planning to buy some electrical appliances, prefer to buy one with Energy Star rating. Energy efficient appliances with Energy Star rating consume less energy and save you money. They might cost you more in the beginning but it is much more of an investment for you.<p>
 									<a class="btn btn-transparent" href="single-post.php">Read more</a>
 								</div>
 							</div>						
 						</article>
-						<!-- end single blog post -->
+						<!-- /single blog post -->
 					</div>
 
 					<div class="all-post text-center">
@@ -1296,11 +1291,11 @@
 					<!-- Contact Details -->
 					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
 						<h3>Contact Details</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
+						<p>You can connect with us for any query and we will get back to you as soon as possible.</p>
 						<div class="contact-details">
 							<div class="con-info clearfix">
 								<i class="fa fa-home fa-lg"></i>
-								<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+								<span>JSS,NOIDA</span>
 							</div>
 							
 							<div class="con-info clearfix">
@@ -1315,7 +1310,7 @@
 							
 							<div class="con-info clearfix">
 								<i class="fa fa-envelope fa-lg"></i>
-								<span>Email: hello@Conservo.com</span>
+								<span>Email: hello@conservo.com</span>
 							</div>
 						</div>
 					</div>

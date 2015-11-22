@@ -85,12 +85,12 @@
 
                 <nav class="collapse navbar-collapse navbar-right" >
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php#about">About Us</a></li>
-                        <li><a href="index.php#services">Services</a></li>
+                       <li><a href="index.php">Home</a></li>
+            <!--           <li><a href="index.php#about">About Us</a></li>
+                        <li><a href="index.php#services">Services</a></li>  -->
                         <li><a href="index.php#our-team">Team</a></li>
-                        <li><a href="index.php#pricing">Pricing</a></li>
-                        <li><a href="index.php#showcase">Portfolio</a></li>
+            <!--            <li><a href="index.php#pricing">Pricing</a></li>
+                        <li><a href="index.php#showcase">Portfolio</a></li> -->
                         <li><a href="index.php#blog">Blog</a></li>
                         <li><a href="index.php#contact-us">Contact</a></li>
                     </ul>

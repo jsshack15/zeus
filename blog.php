@@ -16,7 +16,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo-conservo.png" />
+
+        <!-- JS -->
+        <style type="text/css">
+        .fixedHeight{
+            height:50px;
+            overflow: hidden;
+            position: relative;
+            transition:all .5s linear;
+        }
+        .fixedHeight .expand{
+            position: absolute;
+            right:0;
+            bottom: 0;
+        }
+        </style>
+        <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".message").hide();
+                $("span.readmore").click(function(){
+                    $(".message").show("slow");
+                    $(this).hide();
+                });
+            });
+        </script>
 		
 		<!-- CSS
 		================================================== -->
@@ -83,11 +108,11 @@
                 <nav class="collapse navbar-collapse navbar-right" >
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php#about">About Us</a></li>
-                        <li><a href="index.php#services">Services</a></li>
+                     <!--   <li><a href="index.php#about">About Us</a></li>
+                        <li><a href="index.php#services">Services</a></li> -->
                         <li><a href="index.php#our-team">Team</a></li>
-                        <li><a href="index.php#pricing">Pricing</a></li>
-                        <li><a href="index.php#showcase">Portfolio</a></li>
+                 <!--       <li><a href="index.php#pricing">Pricing</a></li>
+                        <li><a href="index.php#showcase">Portfolio</a></li> -->
                         <li><a href="index.php#blog">Blog</a></li>
                         <li><a href="index.php#contact-us">Contact</a></li>
                     </ul>
@@ -133,13 +158,16 @@
                                
                                 <div class="post-thumb">
                                     <a href="single-post.php">
-										<img src="cfl.jpg" alt="CFL | conservo" class="img-responsive">
+										<img src="img/blog/cfl.jpg" alt="CFL | conservo" class="img-responsive">
 									</a>
                                 </div>
 								<div class="post-excerpt">
-									<h3><a href="single-post.php">Post with featured image</a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat?</p>
-									<a class="btn btn-transparent" href="single-post.php">Read more</a>
+									<h3><a href="single-post.php">CFL vs BULBS</a></h3>
+                                    <div class="fixedHeight">    
+									   <p>If you’re still on the fence over which energy-efficient alternative to choose, you’re running out of time. Incandescent bulbs are being phased out and will be a thing of the past by next year. <a href="javascript:" class="expand">Show More</a>Since lighting our homes accounts for about one-quarter of our electric bills, the new energy-efficient bulbs are going to save us money in the long run. But which should we choose?LED lights last longer, so even though you’re paying more at purchase, you buy fewer bulbs over time. These bulbs fit in standard light fixtures with no adaptor necessary. LED makes very nice lighting for effect and decorative purposes.</p>
+                                       
+                                    </div>
+									
 								</div>
 								<div class="post-meta">
 									<span class="post-date">
@@ -155,14 +183,14 @@
 										<i class="fa fa-user"></i><a href="#">Admin</a>
 									</span>
 									<span class="post-tags">
-										<i class="fa fa-tags"></i><a href="#">Web Design</a>, <a href="#">Development</a>
+										<i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
 									</span>
 								</div>
                             </article>
                             <!-- End Single Post -->
                            
                            <!-- Single Post -->
-                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+                       <!--     <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
 
 								<div id="post-thumb" class="post-thumb">
 									<div class="item">
@@ -173,7 +201,7 @@
 									</div>
 								</div>
 
-                                <div class="post-excerpt">
+                         <!--       <div class="post-excerpt">
 									<h3><a href="single-post.php">Post with image slider</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat?</p>
                                     <a class="btn btn-transparent" href="single-post.php">Read more</a>
@@ -193,7 +221,7 @@
                                         <i class="fa fa-user"></i><a href="#">Admin</a>
                                     </span>
                                     <span class="post-tags">
-                                        <i class="fa fa-tags"></i><a href="#">Web Design</a>, <a href="#">Development</a>
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
                                     </span>
                                 </div>
                             </article>
@@ -202,12 +230,13 @@
                            <!-- Single Post -->
                             <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="media-wrapper">
-                                    <iframe src="http://www.youtube.com/embed/6E_Lav_N-Ho" allowfullscreen></iframe>
+                                  <iframe width="420" height="315" src="https://www.youtube.com/embed/KlG0xk93J-E" frameborder="0" allowfullscreen></iframe>
                                 </div>
 								
                                 <div class="post-excerpt">
-                                    <h3><a href="single-post.php">Post with Youtube Video</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat?</p>
+                                    <h3>Energy Conservation</h3>
+                                    <p>Energy conservation refers to reducing energy consumption through using less of an energy service. Energy conservation differs from efficient energy use, which refers to using less energy for a constant service. For example, driving less is an example of energy conservation. Driving the same amount with a higher mileage vehicle is an example of energy efficiency. Energy conservation and efficiency are both energy reduction techniques.Even though energy conservation reduces energy services, it can result in increased environmental quality, national security, personal financial security and higher savings. It is at the top of the sustainable energy hierarchy.It also lowers energy costs by preventing future resource depletion.</p>
+                            
                                     <a class="btn btn-transparent" href="single-post.php">Read more</a>
                                 </div>
                                 
@@ -225,15 +254,114 @@
                                         <i class="fa fa-user"></i><a href="#">Admin</a>
                                     </span>
                                     <span class="post-tags">
-                                        <i class="fa fa-tags"></i><a href="#">Web Design</a>, <a href="#">Development</a>
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
                                     </span>
                                 </div>
 								
                             </article>
                             <!-- End Single Post -->
-                           
-                           <!-- Single Post -->
+                                                      <!-- Single Post -->
                             <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="media-wrapper">
+                                  <iframe width="420" height="315" src="https://www.youtube.com/embed/fsOZ5ycc8Vk" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                
+                                <div class="post-excerpt">
+                                    <h3>Renewing India</h3>
+                                    <p>Renewables are defining the energy future for India. Wind, sun, biomass and water are fuelling this drive. India is moving ahead step by step. Spanning across the states of Uttaranchal, Maharashtra, Gujarat, West Bengal, Karnataka and Kerala, Renewing India takes you through some of the milestones in India's journey on the path of alternatives.<a href="javascript:" class="expand">Show More</a> This film is divided in five short segments- each highlighting hydropower, solar photovoltaic, solar thermal, wind energy and biomass. The film brings out how renewable energy has been a catalyst of change for many people living in rural India who had no access to modern energy. It also documents how renewables in India have sparkled in every sphere-be it technology, innovations or market</p>
+                                    <a class="btn btn-transparent" href="single-post.php">Read more</a>
+                                </div>
+                                
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        <i class="fa fa-calendar"></i>30 jun 2014
+                                    </span>
+                                    <span class="comments">
+                                        <i class="fa fa-comments"></i>18 Comments
+                                    </span>
+                                    <span class="post-view">
+                                        <i class="fa fa-eye"></i>265 Views
+                                    </span>
+                                    <span class="author">
+                                        <i class="fa fa-user"></i><a href="#">Admin</a>
+                                    </span>
+                                    <span class="post-tags">
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
+                                    </span>
+                                </div>
+                                
+                            </article>
+                            <!-- End Single Post -->
+                             <!-- Single Post -->
+                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="media-wrapper">
+                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/nw0voFnvXLM" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                
+                                <div class="post-excerpt">
+                                    <h3>Success Story #1</h3>
+                                    <p>Rajanga and its neighbouring villages had never seen electricity due to their remote locations in the middle of dense forests. In order to electrify such villages in India, an off-grid electricity supply model was developed by TERI. The film highlights a successful model in the heart of a reserve forest in Dhenkanal, managed completely by the community at cluster level and the various livelihood activities generated under the model by the community.</p>
+                            
+                                    <a class="btn btn-transparent" href="single-post.php">Read more</a>
+                                </div>
+                                
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        <i class="fa fa-calendar"></i>30 jun 2014
+                                    </span>
+                                    <span class="comments">
+                                        <i class="fa fa-comments"></i>18 Comments
+                                    </span>
+                                    <span class="post-view">
+                                        <i class="fa fa-eye"></i>265 Views
+                                    </span>
+                                    <span class="author">
+                                        <i class="fa fa-user"></i><a href="#">Admin</a>
+                                    </span>
+                                    <span class="post-tags">
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
+                                    </span>
+                                </div>
+
+                                
+                            </article>
+                            <!-- End Single Post -->
+
+                            <!-- Single Post -->
+                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="media-wrapper">
+                                 <iframe width="420" height="315" src="https://www.youtube.com/embed/wnVH5LcVAas" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                
+                                <div class="post-excerpt">
+                                    <h3>Success Story #2</h3>
+                                    <p>This movie is about the success of TIDE's project 'Energy conservation in small scale tea processing units in South India'. The project was supported by United Nations Development Program -Global Environment Facility (UNDP-GEF) and Tea Board of India.</p>
+                            
+                                    <a class="btn btn-transparent" href="single-post.php">Read more</a>
+                                </div>
+                                
+                                <div class="post-meta">
+                                    <span class="post-date">
+                                        <i class="fa fa-calendar"></i>30 jun 2014
+                                    </span>
+                                    <span class="comments">
+                                        <i class="fa fa-comments"></i>18 Comments
+                                    </span>
+                                    <span class="post-view">
+                                        <i class="fa fa-eye"></i>265 Views
+                                    </span>
+                                    <span class="author">
+                                        <i class="fa fa-user"></i><a href="#">Admin</a>
+                                    </span>
+                                    <span class="post-tags">
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
+                                    </span>
+                                </div>
+                                
+                            </article>
+                            <!-- End Single Post -->
+                           <!-- Single Post -->
+                    <!--        <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="media-wrapper">
                                     <iframe width="100%" style="height:160px" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73596440&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                                 </div>
@@ -258,7 +386,7 @@
                                         <i class="fa fa-user"></i><a href="#">Admin</a>
                                     </span>
                                     <span class="post-tags">
-                                        <i class="fa fa-tags"></i><a href="#">Web Design</a>, <a href="#">Development</a>
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
                                     </span>
                                 </div>
 								
@@ -266,7 +394,7 @@
                             <!-- End Single Post -->
                            
                            <!-- Single Post -->
-                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+        <!--                    <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="post-excerpt">
                                     <h3><a href="single-post.php">Post with out media</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi quisquam laboriosam, expedita ea natus tempora unde sed sequi velit, quia veniam libero quos sunt praesentium nisi odit architecto fugiat?</p>
@@ -286,14 +414,14 @@
                                         <i class="fa fa-user"></i><a href="#">Admin</a>
                                     </span>
                                     <span class="post-tags">
-                                        <i class="fa fa-tags"></i><a href="#">Web Design</a>, <a href="#">Development</a>
+                                        <i class="fa fa-tags"></i><a href="#">Conservo</a>, <a href="#">Energy Conservation</a>
                                     </span>
                                 </div>
                             </article>
                             <!-- End Single Post -->
                                
                             <nav class="post-pagination wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
-                                <ul>
+                           <!--     <ul>
                                     <li class="disabled"><a href="#">&laquo;</a></li>
                                     <li class="active"><a href="#">1</a></li>
                                     <li><a href="#">2</a></li>
@@ -305,7 +433,7 @@
                                     <li><a href="#">12</a></li>
                                     <li><a href="#">13</a></li>
                                     <li><a href="#">&raquo;</a></li>
-                                </ul>
+                                </ul> -->
                             </nav>
                         </div>
                     </div>
@@ -332,23 +460,23 @@
                        <!-- Single Widget -->
                         <aside class="widget wow fadeInDown">
 							<div class="widget-title">
-                               <h3>Text Widget</h3>
+                               <h3>Blog For What?</h3>
 							</div>
 							<div class="widget-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ducimus in dolorum accusantium voluptate nostrum, excepturi dolores voluptatem vel rerum at, recusandae inventore nobis ex eveniet sunt eligendi, qui provident.</p>
+                                <p>This blog page aims to create awareness among the society so that they could use the resources in the most efficient way and work towards the betterment of the society.<p>
 							</div>
                         </aside>
                         <!-- End Single Widget -->
                        
                        <!-- Single Widget -->
-                        <aside class="widget wow fadeInUp">
+            <!--            <aside class="widget wow fadeInUp">
 							<div class="widget-title">
 								<h3>Tab	 Widget</h3>
 							</div>
 								
 							<div class="widget-content">
 								<!-- tab nav -->
-								<ul class="tab-post-nav clearfix">
+			<!--					<ul class="tab-post-nav clearfix">
 									<li class="active"><a href="#popular" data-toggle="tab">Popular Post</a></li>
 									<li><a href="#recent" data-toggle="tab">Recent Post</a></li>
 									<li><a href="#most-viewed" data-toggle="tab">Most Viewed</a></li>
@@ -356,7 +484,7 @@
 								<!-- /tab nav -->
 								
 								<!-- tab content -->
-								<div class="tab-content">
+			<!--					<div class="tab-content">
 									<article class="tab-pane active tab-post" id="popular">
 										<div class="clearfix">
 											<div class="tab-thumb">
@@ -428,7 +556,7 @@
 									
 								</div>
 								<!-- /tab content -->
-								
+		<!--						
 							</div>
                         </aside>
                         <!-- End Single Widget -->
@@ -455,11 +583,11 @@
 							</div>
 							<div class="widget-content">
                                 <ul class="categories">
-                                    <li><i class="fa fa-plus"></i> <a href="#">Marketing Policy</a></li>
-                                    <li><i class="fa fa-plus"></i> <a href="#">Business Strategy</a></li>
-                                    <li><i class="fa fa-plus"></i> <a href="#">Web Research</a></li>
-                                    <li><i class="fa fa-plus"></i> <a href="#">Web Development</a></li>
-                                    <li><i class="fa fa-plus"></i> <a href="#">Business Model</a></li>
+                                    <li><i class="fa fa-plus"></i> <a href="#">Green Energy</a></li>
+                                    <li><i class="fa fa-plus"></i> <a href="#">Efficient Strategy</a></li>
+                                    <li><i class="fa fa-plus"></i> <a href="#">Research</a></li>
+                                    <li><i class="fa fa-plus"></i> <a href="#">Energy Conservation</a></li>
+                                    <li><i class="fa fa-plus"></i> <a href="#">Better Future</a></li>
                                 </ul>
 							</div>
                         </aside>
@@ -471,16 +599,14 @@
                                <h3>Tag Cloud</h3>
 							</div>
 							<div class="widget-content">
-                                <a class="tag" href="#">Mobile</a>
+                                <a class="tag" href="#">Energy</a>
                                 <a class="tag" href="#">Web</a>
-                                <a class="tag" href="#">Electronics</a>
-                                <a class="tag" href="#">SEO</a>
-                                <a class="tag" href="#">Business Story</a>
-                                <a class="tag" href="#">Post Query</a>
-                                <a class="tag" href="#">HTML5</a>
-                                <a class="tag" href="#">CSS3</a>
-                                <a class="tag" href="#">jQuery</a>
-                                <a class="tag" href="#">Javascript</a>
+                                <a class="tag" href="#">Conservation</a>
+                                <a class="tag" href="#">Nature</a>
+                                <a class="tag" href="#">Clean India</a>
+                                <a class="tag" href="#">Green India</a>
+                                <a class="tag" href="#">Renewing India</a>
+                                
 							</div>
                         </aside>
                         <!-- End Single Widget -->
@@ -556,6 +682,12 @@
 		<script src="js/jquery.fitvids.js"></script>
 		<!-- Custom js -->
 		<script src="js/custom.js"></script>
+        <script type="text/javascript">
+            $(document).on('click','.expand',function(){
+                  $(this).closest('.fixedHeight').css('height','auto');
+                  $(this).hide();
+            });
+        </script>
 
     </body>
 </html>
